@@ -1,7 +1,13 @@
-*{
+* {
   margin: 0;
   padding: 0;
-  box-sizing:border-box;
+  box-sizing: border-box;
 }
 
+.header-line{
+  width: 100%;
+  height: 50px;
+
+  background-color: orange;
+}
 
