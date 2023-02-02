@@ -4,10 +4,93 @@
   box-sizing: border-box;
 }
 
-.header-line{
+.header{
   width: 100%;
   height: 50px;
-
   background-color: orange;
 }
 
+main{
+  width: 90%;
+  margin: 50px auto;
+  display: block;
+}
+
+.main-box{
+  width: 90%;
+  margin-bottom: 20px;
+  padding: 10px;
+  position: center;
+  background-color: #eee;
+}
+
+
+
+
+.img1 {
+  height: 150px;
+  background-image:url(/img/flow01.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.main-sub-text1{
+  position: relative;
+  top: 0;
+  left: 0;
+  background-color:orange;
+  color: #fff;
+}
+
+.img2 {
+  height: 150px;
+  background-image: url(img/flow02.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.main-sub-text2{
+  position: static;
+  top: 0;
+  left: 0;
+  background-color:orange;
+  color: #fff;
+}
+
+.img3 {
+  height: 150px;
+  background-image: url(img/flow03.png);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.main-sub-text3{
+  position: relative;
+  top: 0;
+  left: 0;
+  background-color:orange;
+  color: #fff;
+}
+
+.main-text{
+  margin: 15px 0 5px;
+}
+
+footer{
+  height: 50px;
+  background-color: #aaa;
+}
+
+@media screen and (max-width: 425px) {
+  .header{
+    width: 100%;
+  }
+  
+  main{
+    width: 100%;
+  }
+  
+  footer{
+    width: 100%;
+  }
+}
