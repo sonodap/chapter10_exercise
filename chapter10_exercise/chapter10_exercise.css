@@ -7,69 +7,85 @@
 .header{
   width: 100%;
   height: 50px;
-  background-color: orange;
+  background-color: #FF9933;
 }
 
 main{
-  width: 90%;
-  margin: 50px auto;
+  margin-top: 50px ;
+  margin-bottom: 50px;
   display: block;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .main-box{
-  width: 90%;
-  margin-bottom: 20px;
+  margin: 0 5% 20px 5%;
   padding: 10px;
-  position: center;
   background-color: #eee;
+  position: relative;
+ 
 }
 
-
-
+.memo {
+  font-size: 12px;
+  font-family: ヒラギノ角ゴシック w0;
+}
 
 .img1 {
   height: 150px;
-  background-image:url(/img/flow01.png);
+  background-image: url(img/flow01.png) ;
   background-position: bottom;
   background-size: cover;
 }
 
-.main-sub-text1{
-  position: relative;
+ .main-sub-text1{
+  position: absolute;
   top: 0;
   left: 0;
-  background-color:orange;
+  background-color: #FF9933;
   color: #fff;
+  font-size: 15px;
+  line-height: 1;
+  padding: 6px 1px;
+  font-family: ヒラギノ角ゴシック w0;
 }
 
 .img2 {
   height: 150px;
-  background-image: url(img/flow02.png);
+  background-image: url(img/flow02.png) ;
   background-position: bottom;
   background-size: cover;
 }
 
 .main-sub-text2{
-  position: static;
+  position: absolute;
   top: 0;
   left: 0;
-  background-color:orange;
+  background-color: #FF9933;
   color: #fff;
+  font-size: 15px;
+  line-height: 1;
+  padding: 6px 1px;
+  font-family: ヒラギノ角ゴシック w0;
 }
 
 .img3 {
   height: 150px;
-  background-image: url(img/flow03.png);
+  background-image: url(img/flow03.png) ;
   background-position: bottom;
   background-size: cover;
 }
 
 .main-sub-text3{
-  position: relative;
+  position: absolute;
   top: 0;
   left: 0;
-  background-color:orange;
+  background-color: #FF9933;
   color: #fff;
+  font-size: 15px;
+  line-height: 1;
+  padding: 6px 1px;
+  font-family: ヒラギノ角ゴシック w0;
 }
 
 .main-text{
@@ -85,11 +101,11 @@ footer{
   .header{
     width: 100%;
   }
-  
+
   main{
     width: 100%;
   }
-  
+
   footer{
     width: 100%;
   }
